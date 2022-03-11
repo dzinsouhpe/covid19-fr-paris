@@ -35,3 +35,9 @@ print(' Test dataset:', X_test.shape, y_test.shape)
 # fit a model
 lin_reg = LinearRegression()
 #model1 = lin_reg.fit(X_train, y_train)
+
+i = 1
+max = 1000000000000
+while(i <= max):
+    print(str(i) + " / " + str(max))
+    i = i + 1
